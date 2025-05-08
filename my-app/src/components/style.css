@@ -1,0 +1,42 @@
+.main-container {
+  background-color: rgb(42, 40, 40);
+  color: aliceblue;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scrollupdate {
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  margin-bottom: 30px;
+  height: 20px;
+  width: 100%;
+  background-color: rgb(65, 61, 60);
+  overflow: hidden;
+}
+
+.updatebar {
+  height: 100%;
+  background-color: rgb(255, 255, 0);
+}
+.smillyface {
+    max-height: 100%;
+  background-color: yellow;
+}
+.product-container {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  /* align-items: center; */
+  padding-left: 40px;
+  border: 5px solid rgb(206, 198, 198);
+}
+.productimages {
+  height: auto;
+  width: 100px;
+  /* margin: 5px 10px; */
+}
